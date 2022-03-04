@@ -72,6 +72,8 @@ img {
   clear: both;
 }
 
+
+/* #region DISPLAY SMARTPHONE width=420px*/
 @media screen and (max-width:420px) {
   *{
     margin: 0;
@@ -115,3 +117,57 @@ img {
     padding-top: 1rem;
   }
 }
+/* #endregion DISPLAY SMARTPHONE width=420px*/
+
+/* #region DISPLAY TABLET width=1024px*/
+/*non potendo modificare l'html non sono riuscita a organizzare i contenuti al meglio*/
+@media screen and (max-width:1024px) and (min-width:421px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  .row {
+    max-width: 1024px;
+    margin-top: 0%;
+  }
+ 
+  .container.grey{
+    height: 100vh;
+    background-color: #cfbbbb;
+    margin: 0px auto;
+  }
+  .container{
+    height: 100vh;
+    background-color: #cfbbbb;
+    
+  }
+  h1, img, h3{
+    padding-top: 1rem;
+    
+  }
+  hr{
+    display: none;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 32%;
+  float: left;
+  padding-bottom: 1rem;
+  margin: 0px 2px;
+  }
+  #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: left;
+    width: 32%;
+    height: fit-content;
+    padding-bottom: 1rem;
+    margin-left: 2px;
+  }
+  img{
+    height: 150px;
+    margin-top: 1.5rem;
+  }
+}
+/* #endregion DISPLAY TABLET width=1024px*/
